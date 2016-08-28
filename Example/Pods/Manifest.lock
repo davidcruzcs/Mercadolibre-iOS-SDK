@@ -1,0 +1,16 @@
+PODS:
+  - Mercadolibre (0.1.0)
+
+DEPENDENCIES:
+  - Mercadolibre (from `../`)
+
+EXTERNAL SOURCES:
+  Mercadolibre:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Mercadolibre: d7d7af715aae86f99805ab247fd80f2288d128c3
+
+PODFILE CHECKSUM: 902e8d40b170e650cc3a124747d8c5b34dea7301
+
+COCOAPODS: 1.0.1

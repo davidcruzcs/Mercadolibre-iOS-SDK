@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07710ACB1AB52F5DA9F9288539DFA8D1 /* Mercadolibre-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE708EAAF67C3EB46D26E56363BF8A57 /* Mercadolibre-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		153E3D0057756FF7BF39708B076BA9D7 /* Mercadolibre-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F06E1A209F7FEE60DD65B353E7FCD2 /* Mercadolibre-dummy.m */; };
+		1D18A9355F3396F53DC2F2382B2DCD63 /* Pods-Mercadolibre_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE3A1845DE3770CB46CA959E895A2B6 /* Pods-Mercadolibre_Example-dummy.m */; };
+		4B2EC892F08949741E34C604221A46F2 /* Pods-Mercadolibre_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C986279CAB2131A2254D8DBB048C56 /* Pods-Mercadolibre_Tests-dummy.m */; };
+		4DB2AA56A6C1EF8BBFF51324AC65DD73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		755AF9DA5C7CE1C16F99478A4179F475 /* Pods-Mercadolibre_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4BC29A93165E126113166409B9A3C23 /* Pods-Mercadolibre_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EEBCAEF751879BCA7C39823CF59F9AB /* Pods-Mercadolibre_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4989108555F873E7AEC4263B16274D6 /* Pods-Mercadolibre_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CF97508CBFCC3DFA2083935C0AEF4B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C506211D237F56795324265E22DAAB23 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B6DEBF62F50D13C1FFA317B084D54B /* ReplaceMe.swift */; };
+		E318691246803B07DA637D339BFE895A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9040C1985F85A1CA17914BD828513EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C7E6F064FEF350CFE49A21A517AF9B;
+			remoteInfo = Mercadolibre;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10B6DEBF62F50D13C1FFA317B084D54B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		18584D549A0EFF36096FC923F1F241BE /* Pods-Mercadolibre_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mercadolibre_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		185B968127A1793BF9F75A76A58BF2F2 /* Pods-Mercadolibre_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mercadolibre_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4E2638621689FBE1AEC7C2779AD38AD7 /* Pods-Mercadolibre_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mercadolibre_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		58F5BDBC00E1B280B969323BA7A3F540 /* Mercadolibre.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Mercadolibre.modulemap; sourceTree = "<group>"; };
+		59BF7C0E034AB14E10A94B52A7FD0B34 /* Pods-Mercadolibre_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mercadolibre_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A3CAFAFE4903B409AB0AE8C527952F0 /* Pods-Mercadolibre_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Mercadolibre_Example.modulemap"; sourceTree = "<group>"; };
+		6731A6F0D6221C282BDD3DEC5F2BB18E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D791E1A92EE213BA65CA94F4A83710B /* Mercadolibre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mercadolibre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7007E417883E06FF0F684BD24691349E /* Mercadolibre.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mercadolibre.xcconfig; sourceTree = "<group>"; };
+		70D71D912B7DD0EAC539B0366E227207 /* Pods-Mercadolibre_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Mercadolibre_Tests.modulemap"; sourceTree = "<group>"; };
+		731FAF620CCED8EDE4E56240C836CD1F /* Pods-Mercadolibre_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mercadolibre_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		80C986279CAB2131A2254D8DBB048C56 /* Pods-Mercadolibre_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mercadolibre_Tests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B10FFED1DCADE92371F184342A9A13F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5A92929954A395F580BAF2EBA586D5 /* Pods-Mercadolibre_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mercadolibre_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9CEAD1DC0311F482618EEDC98207484E /* Pods-Mercadolibre_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mercadolibre_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5081768752C327D82FF8CDDFD9B466F /* Pods-Mercadolibre_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mercadolibre_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B1E8B81E38015ECE4EA82353C303CE4F /* Pods_Mercadolibre_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mercadolibre_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F06E1A209F7FEE60DD65B353E7FCD2 /* Mercadolibre-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mercadolibre-dummy.m"; sourceTree = "<group>"; };
+		B4989108555F873E7AEC4263B16274D6 /* Pods-Mercadolibre_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mercadolibre_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B60DBB8302C76806E5256EE7047AD950 /* Pods-Mercadolibre_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mercadolibre_Example-resources.sh"; sourceTree = "<group>"; };
+		BCE5601C555A3B8CF3F004A43C8A8D0D /* Mercadolibre-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mercadolibre-prefix.pch"; sourceTree = "<group>"; };
+		CCEF323E1FE918BECD4CB9C4F20C2A70 /* Pods-Mercadolibre_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mercadolibre_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DAE3A1845DE3770CB46CA959E895A2B6 /* Pods-Mercadolibre_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mercadolibre_Example-dummy.m"; sourceTree = "<group>"; };
+		E0DB1C37CFC794D23914793CF0E7D36F /* Pods-Mercadolibre_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mercadolibre_Tests-resources.sh"; sourceTree = "<group>"; };
+		E54E646F5FB3B88ED69515A987963930 /* Pods_Mercadolibre_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mercadolibre_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6B8FAFCC33D69ECA0E0F78770AC17A /* Pods-Mercadolibre_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mercadolibre_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EE708EAAF67C3EB46D26E56363BF8A57 /* Mercadolibre-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mercadolibre-umbrella.h"; sourceTree = "<group>"; };
+		F4BC29A93165E126113166409B9A3C23 /* Pods-Mercadolibre_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mercadolibre_Example-umbrella.h"; sourceTree = "<group>"; };
+		F98A547F21D1A0612BCB7CD4B44B6D88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1649ABAD513F248078C1BA26C02006CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E318691246803B07DA637D339BFE895A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EAC449A8B00551CC5AE098250920661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF97508CBFCC3DFA2083935C0AEF4B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA413054BB4C935FCC0BC1C8B5A3AAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB2AA56A6C1EF8BBFF51324AC65DD73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09EBA603F230F67347E05B53B16E5493 /* Mercadolibre */ = {
+			isa = PBXGroup;
+			children = (
+				114FB08D28F3A3385C8008B7A5EADA8F /* Mercadolibre */,
+				A31AD599A7D3BA69E0BBE5C8B0A71E73 /* Support Files */,
+			);
+			name = Mercadolibre;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		114FB08D28F3A3385C8008B7A5EADA8F /* Mercadolibre */ = {
+			isa = PBXGroup;
+			children = (
+				439910D338F2208F6E3D8BEDC2BD266E /* Classes */,
+			);
+			path = Mercadolibre;
+			sourceTree = "<group>";
+		};
+		17F1834A1F6AAF0ADA47F1C0EBAC5045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D791E1A92EE213BA65CA94F4A83710B /* Mercadolibre.framework */,
+				E54E646F5FB3B88ED69515A987963930 /* Pods_Mercadolibre_Example.framework */,
+				B1E8B81E38015ECE4EA82353C303CE4F /* Pods_Mercadolibre_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		439910D338F2208F6E3D8BEDC2BD266E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				10B6DEBF62F50D13C1FFA317B084D54B /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5FD234A9F2DB2A2FD179937CA82A2855 /* Pods-Mercadolibre_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9B10FFED1DCADE92371F184342A9A13F /* Info.plist */,
+				70D71D912B7DD0EAC539B0366E227207 /* Pods-Mercadolibre_Tests.modulemap */,
+				59BF7C0E034AB14E10A94B52A7FD0B34 /* Pods-Mercadolibre_Tests-acknowledgements.markdown */,
+				18584D549A0EFF36096FC923F1F241BE /* Pods-Mercadolibre_Tests-acknowledgements.plist */,
+				80C986279CAB2131A2254D8DBB048C56 /* Pods-Mercadolibre_Tests-dummy.m */,
+				4E2638621689FBE1AEC7C2779AD38AD7 /* Pods-Mercadolibre_Tests-frameworks.sh */,
+				E0DB1C37CFC794D23914793CF0E7D36F /* Pods-Mercadolibre_Tests-resources.sh */,
+				B4989108555F873E7AEC4263B16274D6 /* Pods-Mercadolibre_Tests-umbrella.h */,
+				9CEAD1DC0311F482618EEDC98207484E /* Pods-Mercadolibre_Tests.debug.xcconfig */,
+				731FAF620CCED8EDE4E56240C836CD1F /* Pods-Mercadolibre_Tests.release.xcconfig */,
+			);
+			name = "Pods-Mercadolibre_Tests";
+			path = "Target Support Files/Pods-Mercadolibre_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A8BBA54D4E336AB3EBBB26D2F0FE6DCA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				17F1834A1F6AAF0ADA47F1C0EBAC5045 /* Products */,
+				874A0292B1AF777F5A8AA98056F2443E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		874A0292B1AF777F5A8AA98056F2443E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C85E09B63ECA7D4368950E7AD1D8243A /* Pods-Mercadolibre_Example */,
+				5FD234A9F2DB2A2FD179937CA82A2855 /* Pods-Mercadolibre_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A31AD599A7D3BA69E0BBE5C8B0A71E73 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6731A6F0D6221C282BDD3DEC5F2BB18E /* Info.plist */,
+				58F5BDBC00E1B280B969323BA7A3F540 /* Mercadolibre.modulemap */,
+				7007E417883E06FF0F684BD24691349E /* Mercadolibre.xcconfig */,
+				B1F06E1A209F7FEE60DD65B353E7FCD2 /* Mercadolibre-dummy.m */,
+				BCE5601C555A3B8CF3F004A43C8A8D0D /* Mercadolibre-prefix.pch */,
+				EE708EAAF67C3EB46D26E56363BF8A57 /* Mercadolibre-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Mercadolibre";
+			sourceTree = "<group>";
+		};
+		A8BBA54D4E336AB3EBBB26D2F0FE6DCA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09EBA603F230F67347E05B53B16E5493 /* Mercadolibre */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C85E09B63ECA7D4368950E7AD1D8243A /* Pods-Mercadolibre_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F98A547F21D1A0612BCB7CD4B44B6D88 /* Info.plist */,
+				5A3CAFAFE4903B409AB0AE8C527952F0 /* Pods-Mercadolibre_Example.modulemap */,
+				CCEF323E1FE918BECD4CB9C4F20C2A70 /* Pods-Mercadolibre_Example-acknowledgements.markdown */,
+				9C5A92929954A395F580BAF2EBA586D5 /* Pods-Mercadolibre_Example-acknowledgements.plist */,
+				DAE3A1845DE3770CB46CA959E895A2B6 /* Pods-Mercadolibre_Example-dummy.m */,
+				A5081768752C327D82FF8CDDFD9B466F /* Pods-Mercadolibre_Example-frameworks.sh */,
+				B60DBB8302C76806E5256EE7047AD950 /* Pods-Mercadolibre_Example-resources.sh */,
+				F4BC29A93165E126113166409B9A3C23 /* Pods-Mercadolibre_Example-umbrella.h */,
+				185B968127A1793BF9F75A76A58BF2F2 /* Pods-Mercadolibre_Example.debug.xcconfig */,
+				EA6B8FAFCC33D69ECA0E0F78770AC17A /* Pods-Mercadolibre_Example.release.xcconfig */,
+			);
+			name = "Pods-Mercadolibre_Example";
+			path = "Target Support Files/Pods-Mercadolibre_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B1AE6BF15573041AE59C2A45449636BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EEBCAEF751879BCA7C39823CF59F9AB /* Pods-Mercadolibre_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B5B930927D31F4EA0488A529D3CC85 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07710ACB1AB52F5DA9F9288539DFA8D1 /* Mercadolibre-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E22FB8EFBDFA8FE7ADB6234C06EA27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755AF9DA5C7CE1C16F99478A4179F475 /* Pods-Mercadolibre_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19C7E6F064FEF350CFE49A21A517AF9B /* Mercadolibre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 369EFC19C66190FD16CAA1A292EED924 /* Build configuration list for PBXNativeTarget "Mercadolibre" */;
+			buildPhases = (
+				2897531CAFFCDC381E3C5BBBDE0EE4B3 /* Sources */,
+				3EAC449A8B00551CC5AE098250920661 /* Frameworks */,
+				C1B5B930927D31F4EA0488A529D3CC85 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mercadolibre;
+			productName = Mercadolibre;
+			productReference = 6D791E1A92EE213BA65CA94F4A83710B /* Mercadolibre.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		354F867D2BE59292DAC36CAF54FDECA5 /* Pods-Mercadolibre_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C608736D41EB46B5550CD190A193B56 /* Build configuration list for PBXNativeTarget "Pods-Mercadolibre_Tests" */;
+			buildPhases = (
+				29DF836F0E6D6D19FBAF33510EA6B6EC /* Sources */,
+				1649ABAD513F248078C1BA26C02006CC /* Frameworks */,
+				B1AE6BF15573041AE59C2A45449636BB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Mercadolibre_Tests";
+			productName = "Pods-Mercadolibre_Tests";
+			productReference = B1E8B81E38015ECE4EA82353C303CE4F /* Pods_Mercadolibre_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		39D9769C113CB46A08F0B57E1FBAA3CF /* Pods-Mercadolibre_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F395D18EEA3A299E6F016769CEA746FB /* Build configuration list for PBXNativeTarget "Pods-Mercadolibre_Example" */;
+			buildPhases = (
+				E7A4C52B0B325F7E776A252AFBA4D374 /* Sources */,
+				7CA413054BB4C935FCC0BC1C8B5A3AAF /* Frameworks */,
+				E5E22FB8EFBDFA8FE7ADB6234C06EA27 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91E9124A267F0EBA1DCDDA39B553C90F /* PBXTargetDependency */,
+			);
+			name = "Pods-Mercadolibre_Example";
+			productName = "Pods-Mercadolibre_Example";
+			productReference = E54E646F5FB3B88ED69515A987963930 /* Pods_Mercadolibre_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 17F1834A1F6AAF0ADA47F1C0EBAC5045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19C7E6F064FEF350CFE49A21A517AF9B /* Mercadolibre */,
+				39D9769C113CB46A08F0B57E1FBAA3CF /* Pods-Mercadolibre_Example */,
+				354F867D2BE59292DAC36CAF54FDECA5 /* Pods-Mercadolibre_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2897531CAFFCDC381E3C5BBBDE0EE4B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153E3D0057756FF7BF39708B076BA9D7 /* Mercadolibre-dummy.m in Sources */,
+				C506211D237F56795324265E22DAAB23 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DF836F0E6D6D19FBAF33510EA6B6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B2EC892F08949741E34C604221A46F2 /* Pods-Mercadolibre_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A4C52B0B325F7E776A252AFBA4D374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D18A9355F3396F53DC2F2382B2DCD63 /* Pods-Mercadolibre_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91E9124A267F0EBA1DCDDA39B553C90F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mercadolibre;
+			target = 19C7E6F064FEF350CFE49A21A517AF9B /* Mercadolibre */;
+			targetProxy = C9040C1985F85A1CA17914BD828513EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05D7DA45498F4AC7A77C3E080C48E126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7007E417883E06FF0F684BD24691349E /* Mercadolibre.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Mercadolibre/Mercadolibre-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mercadolibre/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mercadolibre/Mercadolibre.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Mercadolibre;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1000E211065B85250C3435398649B42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6B8FAFCC33D69ECA0E0F78770AC17A /* Pods-Mercadolibre_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Mercadolibre_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mercadolibre_Example/Pods-Mercadolibre_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Mercadolibre_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1654832D4EED2A476FF875F808C7E72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 731FAF620CCED8EDE4E56240C836CD1F /* Pods-Mercadolibre_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Mercadolibre_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mercadolibre_Tests/Pods-Mercadolibre_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Mercadolibre_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		586B7705B2907BA2773C8C00C00C5FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7007E417883E06FF0F684BD24691349E /* Mercadolibre.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Mercadolibre/Mercadolibre-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mercadolibre/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mercadolibre/Mercadolibre.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Mercadolibre;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C17CDDBBE99FB5B2AEB2D9B9021E6632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 185B968127A1793BF9F75A76A58BF2F2 /* Pods-Mercadolibre_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Mercadolibre_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mercadolibre_Example/Pods-Mercadolibre_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Mercadolibre_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EFBCBEB0E21D5445E2AFE85292ACDCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CEAD1DC0311F482618EEDC98207484E /* Pods-Mercadolibre_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Mercadolibre_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mercadolibre_Tests/Pods-Mercadolibre_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Mercadolibre_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		369EFC19C66190FD16CAA1A292EED924 /* Build configuration list for PBXNativeTarget "Mercadolibre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D7DA45498F4AC7A77C3E080C48E126 /* Debug */,
+				586B7705B2907BA2773C8C00C00C5FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C608736D41EB46B5550CD190A193B56 /* Build configuration list for PBXNativeTarget "Pods-Mercadolibre_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBCBEB0E21D5445E2AFE85292ACDCDB /* Debug */,
+				1654832D4EED2A476FF875F808C7E72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F395D18EEA3A299E6F016769CEA746FB /* Build configuration list for PBXNativeTarget "Pods-Mercadolibre_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17CDDBBE99FB5B2AEB2D9B9021E6632 /* Debug */,
+				1000E211065B85250C3435398649B42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

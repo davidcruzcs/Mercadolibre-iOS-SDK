@@ -1,0 +1,6 @@
+framework module Mercadolibre {
+  umbrella header "Mercadolibre-umbrella.h"
+
+  export *
+  module * { export * }
+}

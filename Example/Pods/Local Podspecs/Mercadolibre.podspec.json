@@ -1,0 +1,22 @@
+{
+  "name": "Mercadolibre",
+  "version": "0.1.0",
+  "summary": "A short description of Mercadolibre.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Mercadolibre",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Juan David Cruz Serrano": "juandavidcruzs@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Mercadolibre.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Mercadolibre/Classes/**/*"
+}
