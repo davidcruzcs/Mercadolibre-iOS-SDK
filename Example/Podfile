@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Mercadolibre_Example' do
+  pod 'Mercadolibre', :path => '../'
+
+  target 'Mercadolibre_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
