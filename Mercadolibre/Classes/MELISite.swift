@@ -10,6 +10,7 @@ import Foundation
 
 class MELISite: NSObject {
     
-    
-    
+    var id: String?
+    var name: String?
+
 }

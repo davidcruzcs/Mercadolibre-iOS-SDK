@@ -15,7 +15,17 @@
 		755AF9DA5C7CE1C16F99478A4179F475 /* Pods-Mercadolibre_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4BC29A93165E126113166409B9A3C23 /* Pods-Mercadolibre_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EEBCAEF751879BCA7C39823CF59F9AB /* Pods-Mercadolibre_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4989108555F873E7AEC4263B16274D6 /* Pods-Mercadolibre_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CF97508CBFCC3DFA2083935C0AEF4B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		C506211D237F56795324265E22DAAB23 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B6DEBF62F50D13C1FFA317B084D54B /* ReplaceMe.swift */; };
+		C20CE20C1D7323CC008A5386 /* MELIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CE20B1D7323CC008A5386 /* MELIManager.swift */; };
+		C20CE20E1D732413008A5386 /* MELIUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CE20D1D732413008A5386 /* MELIUser.swift */; };
+		C20CE2101D732935008A5386 /* MELIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CE20F1D732935008A5386 /* MELIConstants.swift */; };
+		C20CE2121D733001008A5386 /* MELISellerReputation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CE2111D733001008A5386 /* MELISellerReputation.swift */; };
+		C20CE2141D733068008A5386 /* MELIAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CE2131D733068008A5386 /* MELIAddress.swift */; };
+		C20CE2161D7330EC008A5386 /* MELIBuyerReputation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CE2151D7330EC008A5386 /* MELIBuyerReputation.swift */; };
+		C20CE2181D733297008A5386 /* MELIUserStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CE2171D733297008A5386 /* MELIUserStatus.swift */; };
+		C20CE21A1D7334A9008A5386 /* MELIUserPaymentMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CE2191D7334A9008A5386 /* MELIUserPaymentMethods.swift */; };
+		C20CE21C1D73365C008A5386 /* MELISite.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CE21B1D73365C008A5386 /* MELISite.swift */; };
+		C20CE21E1D7337E3008A5386 /* MELIUsersAndAppsMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CE21D1D7337E3008A5386 /* MELIUsersAndAppsMethods.swift */; };
+		C20CE2211D733A01008A5386 /* RESTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CE2201D733A01008A5386 /* RESTManager.swift */; };
 		E318691246803B07DA637D339BFE895A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10B6DEBF62F50D13C1FFA317B084D54B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		18584D549A0EFF36096FC923F1F241BE /* Pods-Mercadolibre_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mercadolibre_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		185B968127A1793BF9F75A76A58BF2F2 /* Pods-Mercadolibre_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mercadolibre_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4E2638621689FBE1AEC7C2779AD38AD7 /* Pods-Mercadolibre_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mercadolibre_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -53,6 +62,17 @@
 		B4989108555F873E7AEC4263B16274D6 /* Pods-Mercadolibre_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mercadolibre_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B60DBB8302C76806E5256EE7047AD950 /* Pods-Mercadolibre_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mercadolibre_Example-resources.sh"; sourceTree = "<group>"; };
 		BCE5601C555A3B8CF3F004A43C8A8D0D /* Mercadolibre-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mercadolibre-prefix.pch"; sourceTree = "<group>"; };
+		C20CE20B1D7323CC008A5386 /* MELIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MELIManager.swift; sourceTree = "<group>"; };
+		C20CE20D1D732413008A5386 /* MELIUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MELIUser.swift; sourceTree = "<group>"; };
+		C20CE20F1D732935008A5386 /* MELIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MELIConstants.swift; sourceTree = "<group>"; };
+		C20CE2111D733001008A5386 /* MELISellerReputation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MELISellerReputation.swift; sourceTree = "<group>"; };
+		C20CE2131D733068008A5386 /* MELIAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MELIAddress.swift; sourceTree = "<group>"; };
+		C20CE2151D7330EC008A5386 /* MELIBuyerReputation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MELIBuyerReputation.swift; sourceTree = "<group>"; };
+		C20CE2171D733297008A5386 /* MELIUserStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MELIUserStatus.swift; sourceTree = "<group>"; };
+		C20CE2191D7334A9008A5386 /* MELIUserPaymentMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MELIUserPaymentMethods.swift; sourceTree = "<group>"; };
+		C20CE21B1D73365C008A5386 /* MELISite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MELISite.swift; sourceTree = "<group>"; };
+		C20CE21D1D7337E3008A5386 /* MELIUsersAndAppsMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MELIUsersAndAppsMethods.swift; path = UsersAndApps/MELIUsersAndAppsMethods.swift; sourceTree = "<group>"; };
+		C20CE2201D733A01008A5386 /* RESTManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESTManager.swift; sourceTree = "<group>"; };
 		CCEF323E1FE918BECD4CB9C4F20C2A70 /* Pods-Mercadolibre_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mercadolibre_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DAE3A1845DE3770CB46CA959E895A2B6 /* Pods-Mercadolibre_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mercadolibre_Example-dummy.m"; sourceTree = "<group>"; };
@@ -131,7 +151,17 @@
 		439910D338F2208F6E3D8BEDC2BD266E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				10B6DEBF62F50D13C1FFA317B084D54B /* ReplaceMe.swift */,
+				C20CE21F1D7337E8008A5386 /* Methods */,
+				C20CE20B1D7323CC008A5386 /* MELIManager.swift */,
+				C20CE20D1D732413008A5386 /* MELIUser.swift */,
+				C20CE2191D7334A9008A5386 /* MELIUserPaymentMethods.swift */,
+				C20CE2131D733068008A5386 /* MELIAddress.swift */,
+				C20CE2111D733001008A5386 /* MELISellerReputation.swift */,
+				C20CE21B1D73365C008A5386 /* MELISite.swift */,
+				C20CE2151D7330EC008A5386 /* MELIBuyerReputation.swift */,
+				C20CE2171D733297008A5386 /* MELIUserStatus.swift */,
+				C20CE20F1D732935008A5386 /* MELIConstants.swift */,
+				C20CE2201D733A01008A5386 /* RESTManager.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -202,6 +232,14 @@
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C20CE21F1D7337E8008A5386 /* Methods */ = {
+			isa = PBXGroup;
+			children = (
+				C20CE21D1D7337E3008A5386 /* MELIUsersAndAppsMethods.swift */,
+			);
+			name = Methods;
 			sourceTree = "<group>";
 		};
 		C85E09B63ECA7D4368950E7AD1D8243A /* Pods-Mercadolibre_Example */ = {
@@ -337,8 +375,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C20CE20C1D7323CC008A5386 /* MELIManager.swift in Sources */,
+				C20CE2181D733297008A5386 /* MELIUserStatus.swift in Sources */,
 				153E3D0057756FF7BF39708B076BA9D7 /* Mercadolibre-dummy.m in Sources */,
-				C506211D237F56795324265E22DAAB23 /* ReplaceMe.swift in Sources */,
+				C20CE21E1D7337E3008A5386 /* MELIUsersAndAppsMethods.swift in Sources */,
+				C20CE21A1D7334A9008A5386 /* MELIUserPaymentMethods.swift in Sources */,
+				C20CE2121D733001008A5386 /* MELISellerReputation.swift in Sources */,
+				C20CE21C1D73365C008A5386 /* MELISite.swift in Sources */,
+				C20CE2141D733068008A5386 /* MELIAddress.swift in Sources */,
+				C20CE2101D732935008A5386 /* MELIConstants.swift in Sources */,
+				C20CE2211D733A01008A5386 /* RESTManager.swift in Sources */,
+				C20CE2161D7330EC008A5386 /* MELIBuyerReputation.swift in Sources */,
+				C20CE20E1D732413008A5386 /* MELIUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7007E417883E06FF0F684BD24691349E /* Mercadolibre.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -508,6 +557,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7007E417883E06FF0F684BD24691349E /* Mercadolibre.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";

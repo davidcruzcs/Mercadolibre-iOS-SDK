@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+struct MELIErrors {
+    static let Undefined = "Undefined"
+}
