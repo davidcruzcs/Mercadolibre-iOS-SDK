@@ -8,7 +8,7 @@
 
 import Foundation
 
-class MELIUser: NSObject {
+public class MELIUser: NSObject {
     
     var id:String?
     var user_id:String?

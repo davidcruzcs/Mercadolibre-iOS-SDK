@@ -8,7 +8,7 @@
 
 import Foundation
 
-class MELIUserStatus: NSObject {
+public class MELIUserStatus: NSObject {
     
     var site_status: String?
     var list_allow: Bool?

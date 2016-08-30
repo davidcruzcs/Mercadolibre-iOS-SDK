@@ -8,7 +8,7 @@
 
 import Foundation
 
-class MELISellerReputation: NSObject {
+public class MELISellerReputation: NSObject {
     var seller_experience: String?
     var level_id:String?
     var power_seller_status: String?

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class MELIAddress: NSObject {
+public class MELIAddress: NSObject {
     
     var address_line:String?
     var floor: String?

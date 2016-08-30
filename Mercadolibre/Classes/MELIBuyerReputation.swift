@@ -8,7 +8,7 @@
 
 import Foundation
 
-class MELIBuyerReputation: NSObject {
+public class MELIBuyerReputation: NSObject {
     
     var canceled_transactions: Int?
     var transactions_total: Int?

@@ -8,9 +8,9 @@
 
 import Foundation
 
-class RESTManager{
+public class RESTManager{
     
-    private static let _sharedInstance = RESTManager()
+    public static let _sharedInstance = RESTManager()
     
     class func sharedInstance() -> RESTManager {
         
