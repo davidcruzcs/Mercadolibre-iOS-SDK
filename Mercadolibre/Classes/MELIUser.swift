@@ -70,7 +70,7 @@ class MELIUser: NSObject {
     var accepted_payment_methods: MELIUserPaymentMethods?
     
     func start() {
-        MELIManager.sharedInstance().applicationID = "Hola"
+        MELIManager.sharedInstance().localApplicationID = "Hola"
         
     }
     

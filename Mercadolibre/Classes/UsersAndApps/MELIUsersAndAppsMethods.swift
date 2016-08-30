@@ -10,7 +10,7 @@ import Foundation
 
 class MELIUserAndAppsMethods {
     
-    public func getMELISites (completion: (sites:NSArray?, success: Bool) -> ()) {
+    class func getMELISites (completion: (sites:NSArray?, success: Bool) -> ()) {
         
         let request:NSMutableURLRequest = RESTManager.clientURLRequest("sites", params: nil, token: nil)
         RESTManager.get(request) { (success, object) in

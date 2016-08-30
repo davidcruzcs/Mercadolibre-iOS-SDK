@@ -11,14 +11,18 @@ import Foundation
 class MELIManager {
     private static let _sharedInstance = MELIManager()
     
-    public var applicationID: String = MELIErrors.Undefined
-    public var applicationSecretKey: String = MELIErrors.Undefined
-    public var applicationRedirectURI: String = MELIErrors.Undefined
-    public var applicationNotificationsCallbackURL: String = MELIErrors.Undefined
+    var localApplicationID: String = MELIErrors.Undefined
+    var localApplicationSecretKey: String = MELIErrors.Undefined
+    var localApplicationRedirectURI: String = MELIErrors.Undefined
+    var localApplicationNotificationsCallbackURL: String = MELIErrors.Undefined
     
     class func sharedInstance() -> MELIManager {
         
         return _sharedInstance
+        
+    }
+    
+    class func setApplicationID(applicationID: String) {
         
     }
     
