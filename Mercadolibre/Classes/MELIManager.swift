@@ -31,7 +31,6 @@ public class MELIManager {
             dispatch_async(dispatch_get_main_queue(), { () -> Void in
                 
                 if success {
-                    print("\(object)")
                     let obtainedSites:NSArray = object as! NSArray;
                     let resultSites:NSMutableArray = NSMutableArray()
                     for rawSite in obtainedSites {
