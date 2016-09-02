@@ -1,5 +1,5 @@
 PODS:
-  - Mercadolibre (0.1.0)
+  - Mercadolibre (0.1.6)
 
 DEPENDENCIES:
   - Mercadolibre (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Mercadolibre: d7d7af715aae86f99805ab247fd80f2288d128c3
+  Mercadolibre: 95d26cc3505d5b9d21f22353b32bec442086bce6
 
 PODFILE CHECKSUM: 902e8d40b170e650cc3a124747d8c5b34dea7301
 

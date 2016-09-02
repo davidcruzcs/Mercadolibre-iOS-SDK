@@ -14,65 +14,17 @@ public class MELICategory: NSObject {
     
     public var name: String?
     
-    public var permalink: String? {
-        get {
-            if self.permalink == nil {
-                print("nil. Try to call the 'loadMoreCategoryInformation' method first")
-                return nil
-            } else {
-                return self.permalink
-            }
-        }
-        set(newValue) {
-            self.permalink = newValue
-        }
-    }
+    public var permalink: String?
     
-    public var total_items_in_this_category: String? {
-        get {
-            if self.permalink == nil {
-                print("nil. Try to call the 'loadMoreCategoryInformation' method first")
-                return nil
-            } else {
-                return self.permalink
-            }
-        }
-        set(newValue) {
-            self.total_items_in_this_category = newValue
-        }
-    }
-
+    public var total_items_in_this_category: Int?
     
-    public var path_from_root: NSArray? {
-        get {
-            if self.path_from_root == nil {
-                print("nil. Try to call the 'loadMoreCategoryInformation' method first")
-                return nil
-            } else {
-                return self.path_from_root
-            }
-        }
-        set(newValue) {
-            self.path_from_root = newValue
-        }
-    }
-
+    public var path_from_root: NSArray?
     
-    public var children_categories: NSArray? {
-        get {
-            if self.children_categories == nil {
-                print("nil. Try to call the 'loadMoreCategoryInformation' method first")
-                return nil
-            } else {
-                return self.children_categories
-            }
-        }
-        set(newValue) {
-            self.children_categories = newValue
-        }
-    }
-
+    public var children_categories: NSArray?
     
+    public var attributable: Int?
+    
+    public var picture: String?
     
     override init () {
         super.init()
@@ -99,8 +51,10 @@ public class MELICategory: NSObject {
                     
                     let dictionary = object as! Dictionary<String, AnyObject>
                     
+                    self.picture = dictionary["picture"] as? String
+                    self.attributable = dictionary["atributable"] as? Int
                     self.permalink = dictionary["permalink"] as? String
-                    self.total_items_in_this_category = dictionary["total_items_in_this_category"] as? String
+                    self.total_items_in_this_category = dictionary["total_items_in_this_category"] as? Int
                     self.children_categories = dictionary["children_categories"] as? NSArray
                     self.path_from_root = dictionary["path_from_root"] as? NSArray
                     
