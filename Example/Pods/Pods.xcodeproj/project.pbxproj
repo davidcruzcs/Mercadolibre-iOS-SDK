@@ -24,8 +24,10 @@
 		C20CE2181D733297008A5386 /* MELIUserStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CE2171D733297008A5386 /* MELIUserStatus.swift */; };
 		C20CE21A1D7334A9008A5386 /* MELIUserPaymentMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CE2191D7334A9008A5386 /* MELIUserPaymentMethods.swift */; };
 		C20CE21C1D73365C008A5386 /* MELISite.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CE21B1D73365C008A5386 /* MELISite.swift */; };
-		C20CE21E1D7337E3008A5386 /* MELIUsersAndAppsMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CE21D1D7337E3008A5386 /* MELIUsersAndAppsMethods.swift */; };
 		C20CE2211D733A01008A5386 /* RESTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CE2201D733A01008A5386 /* RESTManager.swift */; };
+		C2F05C111D7919DE00279C29 /* MELISiteDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F05C101D7919DE00279C29 /* MELISiteDomain.swift */; };
+		C2F05C131D791E9500279C29 /* MELIListingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F05C121D791E9500279C29 /* MELIListingType.swift */; };
+		C2F05C151D791FB200279C29 /* MELIListingExposure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F05C141D791FB200279C29 /* MELIListingExposure.swift */; };
 		E318691246803B07DA637D339BFE895A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,8 +73,10 @@
 		C20CE2171D733297008A5386 /* MELIUserStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MELIUserStatus.swift; sourceTree = "<group>"; };
 		C20CE2191D7334A9008A5386 /* MELIUserPaymentMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MELIUserPaymentMethods.swift; sourceTree = "<group>"; };
 		C20CE21B1D73365C008A5386 /* MELISite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MELISite.swift; sourceTree = "<group>"; };
-		C20CE21D1D7337E3008A5386 /* MELIUsersAndAppsMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MELIUsersAndAppsMethods.swift; path = UsersAndApps/MELIUsersAndAppsMethods.swift; sourceTree = "<group>"; };
 		C20CE2201D733A01008A5386 /* RESTManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESTManager.swift; sourceTree = "<group>"; };
+		C2F05C101D7919DE00279C29 /* MELISiteDomain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MELISiteDomain.swift; sourceTree = "<group>"; };
+		C2F05C121D791E9500279C29 /* MELIListingType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MELIListingType.swift; sourceTree = "<group>"; };
+		C2F05C141D791FB200279C29 /* MELIListingExposure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MELIListingExposure.swift; sourceTree = "<group>"; };
 		CCEF323E1FE918BECD4CB9C4F20C2A70 /* Pods-Mercadolibre_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mercadolibre_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DAE3A1845DE3770CB46CA959E895A2B6 /* Pods-Mercadolibre_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mercadolibre_Example-dummy.m"; sourceTree = "<group>"; };
@@ -158,6 +162,9 @@
 				C20CE2131D733068008A5386 /* MELIAddress.swift */,
 				C20CE2111D733001008A5386 /* MELISellerReputation.swift */,
 				C20CE21B1D73365C008A5386 /* MELISite.swift */,
+				C2F05C121D791E9500279C29 /* MELIListingType.swift */,
+				C2F05C141D791FB200279C29 /* MELIListingExposure.swift */,
+				C2F05C101D7919DE00279C29 /* MELISiteDomain.swift */,
 				C20CE2151D7330EC008A5386 /* MELIBuyerReputation.swift */,
 				C20CE2171D733297008A5386 /* MELIUserStatus.swift */,
 				C20CE20F1D732935008A5386 /* MELIConstants.swift */,
@@ -237,7 +244,6 @@
 		C20CE21F1D7337E8008A5386 /* Methods */ = {
 			isa = PBXGroup;
 			children = (
-				C20CE21D1D7337E3008A5386 /* MELIUsersAndAppsMethods.swift */,
 			);
 			name = Methods;
 			sourceTree = "<group>";
@@ -378,9 +384,11 @@
 				C20CE20C1D7323CC008A5386 /* MELIManager.swift in Sources */,
 				C20CE2181D733297008A5386 /* MELIUserStatus.swift in Sources */,
 				153E3D0057756FF7BF39708B076BA9D7 /* Mercadolibre-dummy.m in Sources */,
-				C20CE21E1D7337E3008A5386 /* MELIUsersAndAppsMethods.swift in Sources */,
+				C2F05C111D7919DE00279C29 /* MELISiteDomain.swift in Sources */,
 				C20CE21A1D7334A9008A5386 /* MELIUserPaymentMethods.swift in Sources */,
 				C20CE2121D733001008A5386 /* MELISellerReputation.swift in Sources */,
+				C2F05C151D791FB200279C29 /* MELIListingExposure.swift in Sources */,
+				C2F05C131D791E9500279C29 /* MELIListingType.swift in Sources */,
 				C20CE21C1D73365C008A5386 /* MELISite.swift in Sources */,
 				C20CE2141D733068008A5386 /* MELIAddress.swift in Sources */,
 				C20CE2101D732935008A5386 /* MELIConstants.swift in Sources */,
