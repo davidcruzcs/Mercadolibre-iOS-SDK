@@ -10,12 +10,12 @@ import Foundation
 
 public class MELIListingExposure: NSObject {
     
-    var id: String?
-    var home_page: Bool?
-    var name: String?
-    var category_home_page: Bool?
-    var advertising_on_listing_page: Bool?
-    var priority_in_search: Int?
+    public var id: String?
+    public var home_page: Bool?
+    public var name: String?
+    public var category_home_page: Bool?
+    public var advertising_on_listing_page: Bool?
+    public var priority_in_search: Int?
     
     override init () {
         super.init()

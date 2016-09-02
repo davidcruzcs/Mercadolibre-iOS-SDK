@@ -9,14 +9,14 @@
 import Foundation
 
 public class MELISellerReputation: NSObject {
-    var seller_experience: String?
-    var level_id:String?
-    var power_seller_status: String?
-    var transactions_total:Int?
-    var transactions_completed:Int?
-    var transactions_canceled: Int?
-    var transaction_ratings_positive: Int?
-    var transaction_ratings_negative: Int?
-    var transaction_ratings_neutral: Int?
+    public var seller_experience: String?
+    public var level_id:String?
+    public var power_seller_status: String?
+    public var transactions_total:Int?
+    public var transactions_completed:Int?
+    public var transactions_canceled: Int?
+    public var transaction_ratings_positive: Int?
+    public var transaction_ratings_negative: Int?
+    public var transaction_ratings_neutral: Int?
 
 }

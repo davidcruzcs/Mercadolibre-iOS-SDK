@@ -10,8 +10,15 @@ import Foundation
 
 public class MELISite: NSObject {
     
-    var id: String?
-    var name: String?
+    public var id: String?
+    
+    public var name: String?
+    
+    public var listingExposures = NSMutableArray()
+    
+    public var listingTypes = NSMutableArray()
+    
+    public var siteCategories = NSMutableArray()
     
     override init () {
         super.init()
@@ -25,25 +32,24 @@ public class MELISite: NSObject {
 
     }
     
-    public func siteListingExposures (completion: (listingExposures:NSMutableArray?, success: Bool) -> ()) {
+    
+    public func getSiteListingExposures (completion: (listingExposures:NSMutableArray?, success: Bool) -> ()) {
         
-        let fullPath = "/sites/" + id! + "/listing_exposures"
+        let fullPath = "sites/" + id! + "/listing_exposures"
         
         let request:NSMutableURLRequest = RESTManager.clientURLRequest(fullPath, params: nil, token: nil)
         RESTManager.get(request) { (success, object) in
             dispatch_async(dispatch_get_main_queue(), { () -> Void in
                 
                 if success {
-                    print("\(object)")
                     
-                    let obtainedExposures:NSArray = object as! NSArray;
-                    let resultExposures:NSMutableArray = NSMutableArray()
-                    for rawType in obtainedExposures {
-                        let type = MELIListingExposure.init(rawType as! Dictionary<String, AnyObject>)
-                        resultExposures.addObject(type)
-                        
+                    let obtainedExposures:NSArray = object as! NSArray
+                    for rawExposure in obtainedExposures {
+                        let exposure = MELIListingExposure.init(rawExposure as! Dictionary<String, AnyObject>)
+                        self.listingExposures.addObject(exposure)
+
                     }
-                    completion(listingExposures:resultExposures, success: true)
+                    completion(listingExposures:self.listingExposures, success: true)
                     
                 } else {
                     print("\(object)")
@@ -51,29 +57,28 @@ public class MELISite: NSObject {
                 }
             })
         }
+        
+        
             
         
     }
 
-    public func siteListingTypes (completion: (listingTypes:NSMutableArray?, success: Bool) -> ()) {
+    public func getSiteListingTypes (completion: (listingTypes:NSMutableArray?, success: Bool) -> ()) {
         
-        let fullPath = "/sites/" + id! + "/listing_types"
+        let fullPath = "sites/" + id! + "/listing_types"
         
         let request:NSMutableURLRequest = RESTManager.clientURLRequest(fullPath, params: nil, token: nil)
         RESTManager.get(request) { (success, object) in
             dispatch_async(dispatch_get_main_queue(), { () -> Void in
                 
                 if success {
-                    print("\(object)")
                     
-                    let obtainedTypes:NSArray = object as! NSArray;
-                    let resultTypes:NSMutableArray = NSMutableArray()
+                    let obtainedTypes:NSArray = object as! NSArray
                     for rawType in obtainedTypes {
                         let type = MELIListingType.init(rawType as! Dictionary<String, AnyObject>)
-                        resultTypes.addObject(type)
-                        
+                        self.listingTypes.addObject(type)
                     }
-                    completion(listingTypes: resultTypes, success: true)
+                    completion(listingTypes: self.listingTypes, success: true)
                     
                 } else {
                     print("\(object)")
@@ -82,6 +87,37 @@ public class MELISite: NSObject {
             })
         }
     }
+    
+    
+    public func getSiteCategories(completion: (siteCategories:NSMutableArray?, success: Bool) -> ()) {
+        
+        let fullPath = "sites/" + id! + "/categories"
+        
+        let request:NSMutableURLRequest = RESTManager.clientURLRequest(fullPath, params: nil, token: nil)
+        RESTManager.get(request) { (success, object) in
+            dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                
+                if success {
+                    
+                    let obtainedCategories:NSArray = object as! NSArray;
+                    for rawItem in obtainedCategories {
+                        let category = MELICategory.init(rawItem as! Dictionary<String, AnyObject>)
+                        self.siteCategories.addObject(category)
+                        
+                    }
+                    completion(siteCategories:self.siteCategories, success: true)
+                    
+                } else {
+                    print("\(object)")
+                    completion(siteCategories: nil, success: false)
+                }
+            })
+        }
+        
+        
+    }
+    
+
     
     
 }

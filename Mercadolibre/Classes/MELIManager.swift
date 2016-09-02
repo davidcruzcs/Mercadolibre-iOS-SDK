@@ -48,7 +48,7 @@ public class MELIManager {
         }
     }
     
-    public class func siteDomainInformationWithURL (siteDomainUrl:String, completion: (siteDomain:MELISiteDomain?, success: Bool) -> ()) {
+    public class func getSiteDomainInformationWithURL (siteDomainUrl:String, completion: (siteDomain:MELISiteDomain?, success: Bool) -> ()) {
         
         let fullPath = "site_domains/" + siteDomainUrl
         
@@ -70,9 +70,9 @@ public class MELIManager {
         }
     }
     
-    public class func siteListingTypesWithId (siteID:String, completion: (listingTypes:NSMutableArray?, success: Bool) -> ()) {
+    public class func getSiteListingTypesWithId (siteID:String, completion: (listingTypes:NSMutableArray?, success: Bool) -> ()) {
         
-        let fullPath = "/sites/" + siteID + "/listing_types"
+        let fullPath = "sites/" + siteID + "/listing_types"
         
         let request:NSMutableURLRequest = RESTManager.clientURLRequest(fullPath, params: nil, token: nil)
         RESTManager.get(request) { (success, object) in
@@ -99,22 +99,21 @@ public class MELIManager {
     }
     
     
-    public class func siteListingExposuresWithId (siteID:String?, completion: (listingExposures:NSMutableArray?, success: Bool) -> ()) {
+    public class func getSiteListingExposuresWithId (siteID:String?, completion: (listingExposures:NSMutableArray?, success: Bool) -> ()) {
         
-        let fullPath = "/sites/" + siteID! + "/listing_exposures"
+        let fullPath = "sites/" + siteID! + "/listing_exposures"
         
         let request:NSMutableURLRequest = RESTManager.clientURLRequest(fullPath, params: nil, token: nil)
         RESTManager.get(request) { (success, object) in
             dispatch_async(dispatch_get_main_queue(), { () -> Void in
                 
                 if success {
-                    print("\(object)")
                     
                     let obtainedExposures:NSArray = object as! NSArray;
                     let resultExposures:NSMutableArray = NSMutableArray()
-                    for rawType in obtainedExposures {
-                        let type = MELIListingExposure.init(rawType as! Dictionary<String, AnyObject>)
-                        resultExposures.addObject(type)
+                    for rawExposure in obtainedExposures {
+                        let exposure = MELIListingExposure.init(rawExposure as! Dictionary<String, AnyObject>)
+                        resultExposures.addObject(exposure)
                         
                     }
                     completion(listingExposures:resultExposures, success: true)
@@ -122,6 +121,36 @@ public class MELIManager {
                 } else {
                     print("\(object)")
                     completion(listingExposures: nil, success: false)
+                }
+            })
+        }
+        
+        
+    }
+    
+    
+    public class func getSiteCategoriesWithId (siteID:String?, completion: (siteCategories:NSMutableArray?, success: Bool) -> ()) {
+        
+        let fullPath = "sites/" + siteID! + "/categories"
+        
+        let request:NSMutableURLRequest = RESTManager.clientURLRequest(fullPath, params: nil, token: nil)
+        RESTManager.get(request) { (success, object) in
+            dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                
+                if success {
+                    
+                    let obtainedCategories:NSArray = object as! NSArray;
+                    let resultCategories:NSMutableArray = NSMutableArray()
+                    for rawItem in obtainedCategories {
+                        let category = MELICategory.init(rawItem as! Dictionary<String, AnyObject>)
+                        resultCategories.addObject(category)
+                        
+                    }
+                    completion(siteCategories:resultCategories, success: true)
+                    
+                } else {
+                    print("\(object)")
+                    completion(siteCategories: nil, success: false)
                 }
             })
         }

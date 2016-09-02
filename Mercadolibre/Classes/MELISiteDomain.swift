@@ -10,11 +10,11 @@ import Foundation
 
 public class MELISiteDomain: NSObject {
     
-    var site_id:String?
-    var country_id:String?
-    var locale:String?
-    var tag:String?
-    var id:String?
+    public var site_id:String?
+    public var country_id:String?
+    public var locale:String?
+    public var tag:String?
+    public var id:String?
     
     override init () {
         super.init()

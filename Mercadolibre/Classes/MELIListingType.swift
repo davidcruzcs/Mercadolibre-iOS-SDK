@@ -10,9 +10,9 @@ import Foundation
 
 public class MELIListingType: NSObject {
     
-    var id: String?
-    var site_id: String?
-    var name: String?
+    public var id: String?
+    public var site_id: String?
+    public var name: String?
     
     override init () {
         super.init()
