@@ -25,6 +25,8 @@
 		7EEBCAEF751879BCA7C39823CF59F9AB /* Pods-Mercadolibre_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4989108555F873E7AEC4263B16274D6 /* Pods-Mercadolibre_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80C1CE92803EC5A12ECE07408B363815 /* MELIUserPaymentMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BA217EE7EC170431171713A25E0D9E /* MELIUserPaymentMethods.swift */; };
 		980238B234DED31F3A5C0EF75A52DA0B /* MELIAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C70F62DE11398D73F2DAA249E4DE2F6 /* MELIAddress.swift */; };
+		C27000851D88775D001E9A73 /* MELICountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27000841D88775D001E9A73 /* MELICountry.swift */; };
+		C27000871D887C31001E9A73 /* MELICurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27000861D887C31001E9A73 /* MELICurrency.swift */; };
 		C5F290F688A3CF909EE6C30ACA2AEAC8 /* MELISellerReputation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD804E99DBA1A90983B1B2F023AAA7 /* MELISellerReputation.swift */; };
 		E318691246803B07DA637D339BFE895A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		E8778E3E4FA8B06A60F06F896F34BE69 /* MELIListingExposure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221F590C0E02D94793857548AFF64BC3 /* MELIListingExposure.swift */; };
@@ -77,6 +79,8 @@
 		B60DBB8302C76806E5256EE7047AD950 /* Pods-Mercadolibre_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mercadolibre_Example-resources.sh"; sourceTree = "<group>"; };
 		BC8147E2E5E411F872D7EEA7FEFCCA54 /* MELIManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MELIManager.swift; sourceTree = "<group>"; };
 		BCE5601C555A3B8CF3F004A43C8A8D0D /* Mercadolibre-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mercadolibre-prefix.pch"; sourceTree = "<group>"; };
+		C27000841D88775D001E9A73 /* MELICountry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MELICountry.swift; sourceTree = "<group>"; };
+		C27000861D887C31001E9A73 /* MELICurrency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MELICurrency.swift; sourceTree = "<group>"; };
 		CCEF323E1FE918BECD4CB9C4F20C2A70 /* Pods-Mercadolibre_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mercadolibre_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DAE3A1845DE3770CB46CA959E895A2B6 /* Pods-Mercadolibre_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mercadolibre_Example-dummy.m"; sourceTree = "<group>"; };
@@ -141,6 +145,7 @@
 		2E8D3AE039D15C5715D61454911C5EEA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C27000841D88775D001E9A73 /* MELICountry.swift */,
 				8C70F62DE11398D73F2DAA249E4DE2F6 /* MELIAddress.swift */,
 				7979F76F11421DEA7610DDE2E5B4D235 /* MELIBuyerReputation.swift */,
 				6100D724EB0FE744FC8A66F600320C25 /* MELICategory.swift */,
@@ -155,6 +160,7 @@
 				E0BA217EE7EC170431171713A25E0D9E /* MELIUserPaymentMethods.swift */,
 				E83A8324C35D5CCFB396859BB0D51FF2 /* MELIUserStatus.swift */,
 				6027441D14CB9AF70AF44CAE05CCC6CA /* RESTManager.swift */,
+				C27000861D887C31001E9A73 /* MELICurrency.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -399,8 +405,10 @@
 				E8778E3E4FA8B06A60F06F896F34BE69 /* MELIListingExposure.swift in Sources */,
 				4378D561F205313A5DCFEDA66A9E278E /* MELIListingType.swift in Sources */,
 				72CE3BF68D0532EB3E577D5EB629DBAA /* MELIManager.swift in Sources */,
+				C27000851D88775D001E9A73 /* MELICountry.swift in Sources */,
 				C5F290F688A3CF909EE6C30ACA2AEAC8 /* MELISellerReputation.swift in Sources */,
 				75F1DE1AC0E015C3FC3E32EB7DD0950C /* MELISite.swift in Sources */,
+				C27000871D887C31001E9A73 /* MELICurrency.swift in Sources */,
 				6BF4B2CA312164BAA4BA949AE2EE800F /* MELISiteDomain.swift in Sources */,
 				3484DAB790F5A1C359BFFEBCE39FB6C6 /* MELIUser.swift in Sources */,
 				80C1CE92803EC5A12ECE07408B363815 /* MELIUserPaymentMethods.swift in Sources */,

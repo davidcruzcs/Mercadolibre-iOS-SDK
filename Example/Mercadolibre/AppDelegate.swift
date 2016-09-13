@@ -8,7 +8,6 @@
 
 
 import UIKit
-import MercadoLibre
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

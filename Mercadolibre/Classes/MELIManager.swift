@@ -156,6 +156,66 @@ public class MELIManager {
         
         
     }
+    
+    
+    public class func getSiteCountries(completion: (siteCountries:NSMutableArray?, success: Bool) -> ()) {
+    
+        let fullPath = "countries"
+        
+        let request:NSMutableURLRequest = RESTManager.clientURLRequest(fullPath, params: nil, token: nil)
+        RESTManager.get(request) { (success, object) in
+            dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                
+                if success {
+                    
+                    let obtainedCountries:NSArray = object as! NSArray;
+                    let resultCountries:NSMutableArray = NSMutableArray()
+                    for rawItem in obtainedCountries {
+                        let country = MELICategory.init(rawItem as! Dictionary<String, AnyObject>)
+                        resultCountries.addObject(country)
+                        
+                    }
+                    completion(siteCountries:resultCountries, success: true)
+                    
+                } else {
+                    print("\(object)")
+                    completion(siteCountries: nil, success: false)
+                }
+            })
+        }
+        
+        
+    }
+    
+    public class func getSiteCurrencies(completion: (siteCurrencies:NSMutableArray?, success: Bool) -> ()) {
+        
+        let fullPath = "currencies"
+        
+        let request:NSMutableURLRequest = RESTManager.clientURLRequest(fullPath, params: nil, token: nil)
+        RESTManager.get(request) { (success, object) in
+            dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                
+                if success {
+                    
+                    let obtainedCurrencies:NSArray = object as! NSArray;
+                    let resultCurrencies:NSMutableArray = NSMutableArray()
+                    for rawItem in obtainedCurrencies {
+                        let currency = MELICategory.init(rawItem as! Dictionary<String, AnyObject>)
+                        resultCurrencies.addObject(currency)
+                        
+                    }
+                    completion(siteCurrencies:resultCurrencies, success: true)
+                    
+                } else {
+                    print("\(object)")
+                    completion(siteCurrencies: nil, success: false)
+                }
+            })
+        }
+        
+        
+    }
+    
 
     
     
